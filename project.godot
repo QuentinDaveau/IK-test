@@ -8,6 +8,16 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Resource",
+"class": "IkJoint",
+"language": "GDScript",
+"path": "res://ik_joint.gd"
+} ]
+_global_script_class_icons={
+"IkJoint": ""
+}
+
 [application]
 
 config/name="IK Test"
