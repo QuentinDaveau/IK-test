@@ -1,0 +1,207 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://IKTest.tscn" type="PackedScene" id=1]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="IKTest" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest2" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest3" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest4" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest5" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest6" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest7" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest8" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest9" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest10" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest11" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest12" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest13" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest14" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest15" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest16" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest17" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest18" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest19" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest20" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest21" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest22" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest23" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest24" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest25" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest26" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest27" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest28" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest29" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest30" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest31" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest32" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest33" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest34" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest35" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest36" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest37" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest38" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest39" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest40" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest41" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest42" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest43" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest44" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest45" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest46" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest47" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest48" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest49" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest50" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest51" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest52" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest53" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest54" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest55" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest56" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest57" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest58" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest59" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest60" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest61" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest62" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest63" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest64" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest65" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest66" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest67" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest68" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest69" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest70" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest71" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest72" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest73" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest74" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest75" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest76" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest77" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest78" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest79" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest80" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest81" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest82" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest83" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest84" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest85" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest86" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest87" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest88" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest89" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest90" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest91" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest92" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest93" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest94" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest95" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest96" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest97" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest98" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest99" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest100" parent="." instance=ExtResource( 1 )]
+
+[node name="IKTest101" parent="." instance=ExtResource( 1 )]
