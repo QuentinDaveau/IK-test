@@ -6,31 +6,26 @@
 [sub_resource type="Resource" id=9]
 script = ExtResource( 2 )
 target_transform = NodePath("Arm")
-weight = 1.0
 constraints = Vector3( 0, 0, 0 )
 
 [sub_resource type="Resource" id=10]
 script = ExtResource( 2 )
 target_transform = NodePath("Arm/Bone1")
-weight = 1.0
-constraints = Vector3( 0, 0, 0 )
+constraints = Vector3( 45, 0, 0 )
 
 [sub_resource type="Resource" id=11]
 script = ExtResource( 2 )
 target_transform = NodePath("Arm/Bone1/Bone2")
-weight = 1.0
-constraints = Vector3( 0, 0, 0 )
+constraints = Vector3( 45, 0, 0 )
 
 [sub_resource type="Resource" id=12]
 script = ExtResource( 2 )
 target_transform = NodePath("Arm/Bone1/Bone2/Bone3")
-weight = 1.0
 constraints = Vector3( 0, 0, 0 )
 
 [sub_resource type="Resource" id=13]
 script = ExtResource( 2 )
 target_transform = NodePath("Arm/Bone1/Bone2/Bone3/Bone4")
-weight = 1.0
 constraints = Vector3( 0, 0, 0 )
 
 [sub_resource type="CubeMesh" id=1]
