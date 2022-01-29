@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://CleanIKTest.tscn" type="PackedScene" id=1]
+[ext_resource path="res://IKDemo.tscn" type="PackedScene" id=1]
 
 [node name="Spatial" type="Spatial"]
 
@@ -302,4 +302,304 @@ _max_resolves = 3
 _max_resolves = 3
 
 [node name="IKTest100" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest101" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest102" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest103" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest104" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest105" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest106" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest107" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest108" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest109" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest110" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest111" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest112" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest113" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest114" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest115" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest116" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest117" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest118" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest119" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest120" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest121" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest122" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest123" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest124" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest125" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest126" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest127" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest128" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest129" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest130" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest131" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest132" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest133" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest134" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest135" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest136" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest137" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest138" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest139" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest140" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest141" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest142" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest143" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest144" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest145" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest146" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest147" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest148" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest149" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest150" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest151" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest152" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest153" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest154" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest155" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest156" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest157" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest158" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest159" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest160" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest161" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest162" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest163" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest164" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest165" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest166" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest167" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest168" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest169" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest170" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest171" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest172" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest173" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest174" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest175" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest176" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest177" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest178" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest179" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest180" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest181" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest182" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest183" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest184" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest185" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest186" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest187" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest188" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest189" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest190" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest191" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest192" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest193" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest194" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest195" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest196" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest197" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest198" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest199" parent="." instance=ExtResource( 1 )]
+_max_resolves = 3
+
+[node name="IKTest200" parent="." instance=ExtResource( 1 )]
 _max_resolves = 3

@@ -1,6 +1,32 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://simple_ik.gd" type="Script" id=1]
+[ext_resource path="res://ik_joint.gd" type="Script" id=2]
+
+[sub_resource type="Resource" id=9]
+script = ExtResource( 2 )
+target_transform = NodePath("Arm")
+constraint = 90.0
+
+[sub_resource type="Resource" id=10]
+script = ExtResource( 2 )
+target_transform = NodePath("Arm/Bone1")
+constraint = 45.0
+
+[sub_resource type="Resource" id=11]
+script = ExtResource( 2 )
+target_transform = NodePath("Arm/Bone1/Bone2")
+constraint = 90.0
+
+[sub_resource type="Resource" id=12]
+script = ExtResource( 2 )
+target_transform = NodePath("Arm/Bone1/Bone2/Bone3")
+constraint = 140.0
+
+[sub_resource type="Resource" id=13]
+script = ExtResource( 2 )
+target_transform = NodePath("Arm/Bone1/Bone2/Bone3/Bone4")
+constraint = 0.0
 
 [sub_resource type="CubeMesh" id=1]
 size = Vector3( 0.1, 0.1, 1 )
@@ -17,6 +43,9 @@ size = Vector3( 0.1, 0.1, 2 )
 [sub_resource type="SphereMesh" id=6]
 radius = 0.2
 height = 0.4
+
+[sub_resource type="CubeMesh" id=14]
+size = Vector3( 0.1, 0.1, 0.2 )
 
 [sub_resource type="Animation" id=7]
 length = 0.001
@@ -50,10 +79,11 @@ tracks/0/keys = {
 "values": [ Vector3( 0, 1.51893, -3.53311 ), Vector3( 3, 1.43, 3.436 ), Vector3( -2.446, -4.824, -4.925 ), Vector3( 1.051, 0.418, 0.138 ), Vector3( 0, 4.68626, 6.33143 ) ]
 }
 
-[node name="IKTest" type="Node"]
+[node name="SimpleIk" type="Node"]
 script = ExtResource( 1 )
-_joints_paths = [ NodePath("Arm"), NodePath("Arm/Bone1"), NodePath("Arm/Bone1/Bone2"), NodePath("Arm/Bone1/Bone2/Bone3"), NodePath("Arm/Bone1/Bone2/Bone3/Bone4") ]
+_min_accepted_dist = 0.01
 _target_path = NodePath("Target")
+_joints = [ SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ) ]
 
 [node name="Arm" type="Spatial" parent="."]
 
@@ -102,11 +132,17 @@ __meta__ = {
 mesh = SubResource( 6 )
 material/0 = null
 
+[node name="MeshInstance2" type="MeshInstance" parent="Target"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.201756 )
+mesh = SubResource( 14 )
+material/0 = null
+
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( -3.4206e-08, -0.622597, 0.782543, -2.72146e-08, 0.782543, 0.622597, -1, -1.77636e-15, -4.37114e-08, 3.84309, 3.72351, -0.177386 )
 size = 10.0
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "test"
+playback_speed = 0.3
 anims/RESET = SubResource( 7 )
 anims/test = SubResource( 8 )

@@ -21,7 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="IK Test"
-run/main_scene="res://IKTest.tscn"
+run/main_scene="res://IKDemo.tscn"
 config/icon="res://icon.png"
 
 [physics]
