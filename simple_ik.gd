@@ -48,7 +48,7 @@ func _ik_pass() -> bool:
 	for j in range(_joints_resolvers.size() - 2, 0, -1):
 		_joints_resolvers[j].resolve_position(_joints_resolvers[j + 1], true)
 	# Backward pass
-	for j in range(1, _joints_resolvers.size() - 1):
+	for j in range(1, _joints_resolvers.size() ):
 		_joints_resolvers[j].resolve_position(_joints_resolvers[j - 1], false)
 	# Return wether we are close enough to the target or not
 	return _joints_resolvers[-2].position.distance_to(_joints_resolvers[-1].position) <= _min_accepted_dist
@@ -56,8 +56,8 @@ func _ik_pass() -> bool:
 
 
 func _apply_to_joints() -> void:
-	for r in range(1, _joints_resolvers.size() - 2):
-		_joints_resolvers[r].set_transform(_joints_resolvers[r + 1].position)
+	for r in range(1, _joints_resolvers.size() - 1):
+		_joints_resolvers[r].set_transform(_joints_resolvers[r + 1].forward)
 
 
 
@@ -74,8 +74,8 @@ func _setup_joints() -> void:
 		_joints_resolvers.append(JointResolver.new(joint, dist, _get_rads(_joints[i].constraint)))
 	
 	# Adding dummy root and target joints. Having a quasi-null constraint allows to correctly apply constraint on the first and last bone
-	_joints_resolvers.push_front(JointResolver.new(get_node(_joints[0].target_transform), 0.0, 0.001))
-	_joints_resolvers.append(JointResolver.new(target, 0.0, 0.001))
+	_joints_resolvers.push_front(JointResolver.new(get_node(_joints[0].target_transform), 0.0, 0.1))
+	_joints_resolvers.append(JointResolver.new(target, 0.0, 0.1))
 
 
 
@@ -91,17 +91,17 @@ class JointResolver:
 	
 	# Accessing directly position and distance instead of passing by a func helps a lot to gain ms
 	var position: Vector3
+	var forward: Vector3
 	var bone_distance: float
 	
 	var _constraint: float
-	var _forward: Vector3
 	
 	
 	func _init(joint: Spatial, distance: float, constraint: float) -> void:
 		_joint = joint
 		bone_distance = distance
 		_constraint = constraint
-		_forward = -joint.global_transform.basis.z
+		forward = -joint.global_transform.basis.z
 		refresh_position()
 	
 	
@@ -111,13 +111,13 @@ class JointResolver:
 	
 	func resolve_position(parent_joint: JointResolver, use_parent_bone: bool) -> void:
 		var distance := parent_joint.bone_distance if use_parent_bone else bone_distance
-		_forward = parent_joint.resolve_constraint(position)
-		position = parent_joint.position + _forward * distance
+		forward = parent_joint.resolve_constraint(position)
+		position = parent_joint.position + forward * distance
 	
 	
-	func set_transform(lookat: Vector3) -> void:
+	func set_transform(forward: Vector3) -> void:
 		_joint.global_transform.origin = position
-		_joint.global_transform.basis = _joint.global_transform.looking_at(lookat, Vector3.UP).basis
+		_joint.global_transform.basis = _joint.global_transform.looking_at(position + forward, Vector3.UP).basis
 	
 	
 	func resolve_constraint(source_position: Vector3) -> Vector3:
@@ -129,7 +129,7 @@ class JointResolver:
 	
 	
 	func _clamp_direction(direction: Vector3) -> Vector3:
-		if _forward.dot(direction) > cos(_constraint):
+		if forward.dot(direction) > cos(_constraint):
 			return direction
-		return _forward.rotated(_forward.cross(direction).normalized(), _constraint)
+		return forward.rotated(forward.cross(direction).normalized(), _constraint)
 
